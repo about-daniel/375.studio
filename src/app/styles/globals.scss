@@ -1,0 +1,22 @@
+@import "normalize.css/normalize.css";
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  overscroll-behavior: none;
+  background: #000;
+  color: #fff;
+}
+
+main {
+  padding: 50px;
+  height: 100vh;
+  position: relative;
+  display: block;
+}
+p {
+  line-height: 25px;
+}

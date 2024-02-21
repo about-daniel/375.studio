@@ -9,12 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@strapi/blocks-react-renderer": "^1.0.0",
+    "next": "14.1.0",
+    "normalize.css": "^8.0.1",
+    "qs": "^6.11.2",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "sass": "^1.70.0"
   }
 }

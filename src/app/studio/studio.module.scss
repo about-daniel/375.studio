@@ -1,0 +1,30 @@
+.heading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  .row {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    .left {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-right: 40px;
+      h1 {
+        margin: 0;
+      }
+    }
+    .right {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
